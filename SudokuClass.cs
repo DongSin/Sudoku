@@ -126,7 +126,6 @@ namespace SudokuClass
             {
                 if (placeNumber(row, col, i))
                 {
-                    Console.WriteLine(this.ToString());
                     if (col >= 8 && row >= 8) {
                         solved = true;
                         break;
